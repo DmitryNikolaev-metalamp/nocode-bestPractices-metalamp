@@ -32,4 +32,35 @@ _Не позволяет кастомизировать input для него_!
 Даёт возможность загружать сторонние библиотеки (наподобие Яндекс Карт, или любых других через репозиторий GitHub).
 
 # Полезные API
-- Docmosis
+## Docmosis
+Позволяет формировать документы по созданному заранее шаблону.
+
+[Как подключить](https://resources.docmosis.com/content/getting-started/generate-a-document-from-a-bubble-web-application)
+
+## Dadata
+База даных Российских городов и улиц. Можно использовать для подсказки при вводе адреса.
+### Как быстро подключить:
+- Регистрируемся на сайте
+- Создаём API в API Connector следующим образом:
+![image](https://user-images.githubusercontent.com/100406501/170166454-9e9122a3-0d98-4dd9-8871-8329f49fc4f8.png)
+
+- Копируем cURL запрос с dadata
+![image](https://user-images.githubusercontent.com/100406501/170166529-ca0456e8-020b-4868-8cb7-4929a44322d7.png)
+
+-Нажимаем на _Import another call from cURL_ в API Connector, и вставляем запрос.
+![image](https://user-images.githubusercontent.com/100406501/170166613-c8c8c283-bafc-44d5-a959-c5db23cb44d1.png)
+
+## Coingecko
+Позволяет просматривать текущую информацию о криптовалюте.
+### Как подключить
+- [Само API](https://www.coingecko.com/en/api/documentation)
+- [Видео](https://youtu.be/_hk8HTTQPCE)
+
+## EtherScan
+Позволяет отслеживать стоимость газа
+### Как подключить:
+- [Инструкция](https://www.topcoder.com/thrive/articles/using-the-etherscan-api-and-bubble)
+- [Сайт Etherscan](https://etherscan.io/)
+
+## Infura.io (в процессе)
+- [Как посмотреть баланс на кошельке](https://ncubesoftware.com/using-bubble-to-read-data-from-the-ethereum-blockchain/)
